@@ -1,0 +1,67 @@
+/*---------------------------About-----------------------------*/
+#about {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.user-img {
+    flex: 0 1 400px;
+    background: url(../img/people/liza.jpg) center/cover no-repeat;
+    width: 400px;
+    height: 500px;
+}
+
+.user-desc {
+    flex: 0 1 400px;
+    text-align: center;
+    color: #858075;
+
+}
+
+.user-desc h1 {
+    font-family: 'Noto Serif KR';
+    font-size: 40px;
+    font-weight: 500;
+}
+.user-desc h3 {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.underline {
+  margin: 0 auto;
+  width: 70px;
+  background: #858075;
+  height: 1px;
+  margin-bottom: 20px;
+}
+
+.user-desc p {
+    font-family: 'Quicksand';
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.coffee-img {
+    flex: 0 0 400px;
+    background: url(../img/coffees/c5.jpg) center/cover no-repeat;
+    width: 400px;
+    height: 500px;
+}
+
+.pastries-img {
+    flex: 0 0 400px;
+    background: url(../img/pastries/p5.jpg) center/cover no-repeat;
+    width: 400px;
+    height: 500px;
+}

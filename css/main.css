@@ -1,0 +1,173 @@
+@import 'import.css';
+/*
+body: #FFFFFF
+text: #756F63
+text/maintitle/menu: #272521
+text-title/menu: #C1BBA9
+footer: #756F63;
+
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Indie Flower', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Noto Serif KR', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #FFFFFF;
+}
+
+
+
+/*---------------------------------Media Query------------------*/
+
+@media screen and (max-width: 960px) {
+    #container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #img-parrallax {
+        width: 100%;
+    }
+    #quote-parrallax {
+        width: 100%;
+    }
+    .scrollToTop {
+        right: 10px;
+        bottom: 5px;
+    }
+    
+    .drinks-menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .food-menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .tabcontent{
+        width: 100%;
+    }
+    
+    .tab {
+        justify-content: center;
+    }
+    
+    .user-img, .pastries-img, .coffee-img {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #header-title {
+        font-size: 40px;
+    }
+    #img-parrallax {
+        width: 100%;
+    }
+    #quote-parrallax {
+        width: 100%;
+    }
+    
+    #quote-parrallax .quotes {
+        font-size: 30px;
+    }
+    
+    #container {
+        display: flex;
+        flex-direction: column;
+        width: 390px;
+    }
+    
+    footer {
+        width: 100%;
+        display: block;
+    }
+    
+    footer .footer-p {
+        width: 100%;
+    }
+    
+    footer form {
+        width: 100%;
+        display: block;
+    }
+    
+    .form2 textarea {
+        width: 300px!important;
+    }
+    
+    .form1 input {
+        width: 300px!important;
+    }
+    .scrollToTop {
+        right: 10px;
+        bottom: 5px;
+    }
+    
+    form .form2 input {
+    margin-right: -16px;
+
+}
+    
+    #navigations {
+        flex-direction: column;
+    }
+    nav .main-nav {
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+    
+    nav .main-nav li {
+        margin-bottom: 5px;
+    }
+     .tabcontent{
+        width: 100%;
+    }
+    .tab {
+        justify-content: center;
+    }
+    
+    #navigations nav ul{
+        display: none;
+    }
+    
+    nav ul li{
+        padding-bottom: 10px;
+    }
+    .btn{
+        margin-bottom: 5px;
+    }
+    
+
+
+}
+
+@media only screen and (min-width: 767px) {
+    
+    nav ul {
+    display: flex!important;
+    justify-content: space-around!important;
+    }
+    
+    .btn {
+        display: none;
+    }
+    
+}
+    
+
+
+
+
+
